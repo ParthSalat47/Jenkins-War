@@ -12,4 +12,11 @@ public class MainController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "/synoptek")
+	public String synoptekPage()
+	{
+		return "synoptek";
+	}
+	
 }
+
